@@ -513,122 +513,154 @@ hr {
     gap: 14px;
     margin-top: 25px;
   }
-      /* Experience section */
+  .box1,
+  .box2,
+  .box3,
+  .box4 {
+    width: 100%;
+    min-width: 0;
+    height: 180px;
+    padding: 15px;
+    gap: 20px;
+  }
 
-    .experience-section {
-        padding: 30px 22px;
-        height: auto;
-    }
+  .box1 h3,
+  .box2 h3,
+  .box3 h3,
+  .box4 h3 {
+    font-size: 18px;
+    line-height: 1.3;
+    overflow-wrap: break-word;
+  }
+  .values-section {
+    padding: 45px 22px;
+  }
 
-    .work-setup {
-        display: block;
-        width: 100%;
-        height: 190px;
-        margin-bottom: 25px;
-        object-fit: cover;
-        border-radius: 10px;
-    }
+  .about-values h2 {
+    font-size: 32px;
+    line-height: 1.2;
+  }
 
-    .experience-content {
-        display: grid;
-        grid-template-columns: minmax(0, 1fr);
-        gap: 35px;
-        padding: 0;
-        align-items: start;
-    }
+  .about-values p {
+    font-size: 15px;
+    line-height: 1.6;
+    max-width: 100%;
+  }
+  /* Experience section */
 
-    .experience-info,
-    .experience-intro,
-    .education-history {
-        width: 100%;
-        min-width: 0;
-    }
+  .experience-section {
+    padding: 30px 22px;
+    height: auto;
+  }
 
-    .experience-intro h2 {
-        font-size: 28px;
-        line-height: 1.3;
-    }
+  .work-setup {
+    display: block;
+    width: 100%;
+    height: 190px;
+    margin-bottom: 25px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
 
-    .experience-intro p {
-        font-size: 13px;
-        line-height: 1.7;
-    }
+  .experience-content {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 35px;
+    padding: 0;
+    align-items: start;
+  }
 
-    .stats {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 25px;
-    }
+  .experience-info,
+  .experience-intro,
+  .education-history {
+    width: 100%;
+    min-width: 0;
+  }
 
-    .stats-part1,
-    .stats-part2 {
-        min-width: 0;
-    }
+  .experience-intro h2 {
+    font-size: 28px;
+    line-height: 1.3;
+  }
 
-    .stats-part1 h3,
-    .stats-part2 h3 {
-        font-size: 22px;
-    }
+  .experience-intro p {
+    font-size: 13px;
+    line-height: 1.7;
+  }
 
-    .stats-part1 p,
-    .stats-part2 p {
-        font-size: 12px;
-        line-height: 1.5;
-    }
+  .stats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+  }
 
-    .download-cv {
-        max-width: 100%;
-        min-height: 38px;
-        padding: 7px 12px;
-        cursor: pointer;
-    }
+  .stats-part1,
+  .stats-part2 {
+    min-width: 0;
+  }
 
-    /* Education */
+  .stats-part1 h3,
+  .stats-part2 h3 {
+    font-size: 22px;
+  }
 
-    .education-history h3 {
-        font-size: 25px;
-        margin-top: 0;
-        margin-bottom: 15px;
-    }
+  .stats-part1 p,
+  .stats-part2 p {
+    font-size: 12px;
+    line-height: 1.5;
+  }
 
-    .experience-item {
-        display: flex;
-        align-items: flex-start;
-        gap: 10px;
-        margin: 18px 0;
-        min-width: 0;
-    }
+  .download-cv {
+    max-width: 100%;
+    min-height: 38px;
+    padding: 7px 12px;
+    cursor: pointer;
+  }
 
-    .company-icon {
-        flex-shrink: 0;
-    }
+  /* Education */
 
-    .company-icon img {
-        width: 20px;
-        height: 20px;
-        object-fit: contain;
-    }
+  .education-history h3 {
+    font-size: 25px;
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
 
-    .experience-details {
-        flex: 1;
-        min-width: 0;
-    }
+  .experience-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin: 18px 0;
+    min-width: 0;
+  }
 
-    .experience-details h4 {
-        font-size: 14px;
-        line-height: 1.5;
-        overflow-wrap: anywhere;
-    }
+  .company-icon {
+    flex-shrink: 0;
+  }
 
-    .experience-details p,
-    .experience-details span {
-        font-size: 12px;
-        line-height: 1.6;
-        overflow-wrap: anywhere;
-    }
+  .company-icon img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+  }
 
-    .experience-details hr {
-        width: 100%;
-    }
+  .experience-details {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .experience-details h4 {
+    font-size: 14px;
+    line-height: 1.5;
+    overflow-wrap: anywhere;
+  }
+
+  .experience-details p,
+  .experience-details span {
+    font-size: 12px;
+    line-height: 1.6;
+    overflow-wrap: anywhere;
+  }
+
+  .experience-details hr {
+    width: 100%;
+  }
 }
-
