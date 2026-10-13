@@ -5,33 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css"
+      integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
-  <body>
 
+  <body>
     <main class="container">
       <section class="intro-section">
-
         <!-- ---------------------------------------------------------------------------------------------------- -->
         <nav class="navbar">
-          <div class="first-half">
-            <!-- <a href="" class="brand">Tushar<span>.</span></a> -->
-            <img
-              src="https://img.magnific.com/premium-vector/ts-letter-logo-design_579179-1158.jpg?semt=ais_hybrid&w=740&q=80"
-              alt=""
-              style="height: 90px" 
-            />
+          <img
+            src="https://img.magnific.com/premium-vector/ts-letter-logo-design_579179-1158.jpg?semt=ais_hybrid&w=740&q=80"
+            alt=""
+            style="height: 90px"
+          />
+          <div class="first-half" id="id-first-half">
             <a href="#home">Home</a>
             <a href="#values">What I Bring</a>
             <a href="#education">Education</a>
           </div>
 
-          <div class="second-half">
+          <div class="second-half" id="id-second-half">
             <a
               href="https://github.com/tushars1ngh"
               target="_blank"
               rel="noopener noreferrer"
               >View My Work ↗</a
             >
+          </div>
+          <div class="MenuClose">
+            <i class="fa-solid fa-bars" id="openMenu"></i>
+            <i class="fa-solid fa-xmark" id="closeMenu"></i>
           </div>
         </nav>
 
@@ -147,9 +156,8 @@
             </div>
 
             <a href="./assets/later.html">
-                <button class="download-cv">Download my CV</button>
+              <button class="download-cv">Download my CV</button>
             </a>
-            
           </div>
 
           <div class="education-history" id="education">
@@ -203,5 +211,7 @@
         </div>
       </section>
     </main>
+
+    <script src="./script.js"></script>
   </body>
 </html>
