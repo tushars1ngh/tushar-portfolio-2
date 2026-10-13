@@ -2,6 +2,10 @@
 
 A personal portfolio website built using HTML, CSS and JavaScript to showcase my background, education and frontend development work.
 
+## Live Demo
+
+Check out the live website here: [Personal Portfolio](https://tushars1ngh.github.io/tushar-portfolio-2/)
+
 ## Preview
 
 ![Portfolio Website Preview](./assets/preview.png)
